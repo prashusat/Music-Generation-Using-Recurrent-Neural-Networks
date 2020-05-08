@@ -6,8 +6,8 @@ I was very curious about how Recurrent Neural Networks are used to generate musi
 
 -> The dataset used for training the model was encoded in a special way in which music is represented which is called "ABC notation".<br/>
 -> The dataset had about 340 tunes which it was trained with and had  86 unique characters in the dataset.<br/>
--> Each of the characters are encoded as numbers. So we have a number between 0 and 85 representing each of the character in the dataset.
-
+-> Each of the characters are encoded as numbers. So we have a number between 0 and 85 representing each of the character in the dataset.<br/>
+-> The dataset can be found in abc format in the file input.txt
 ## Description of the Model and the input:
 
 -> We are using a RNN based model here where we have an embedding layer in the beginnig which takes each input which is a number between 0 and 86 and converts them to a 512 dimension vector.<br/>
